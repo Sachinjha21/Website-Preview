@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Preview</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Website Preview</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Find designers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inspiration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary text-white" href="#">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Section -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Website Preview</h2>
+        <div class="row gallery">
+            <div class="col-md-4 mb-4">
+                <div class="card" data-url="https://www.airbnb.co.in/host/homes">
+                    <img src="images-task/airbnb.png" class="card-img-top" alt="Airbnb">
+                    <div class="card-img-overlay">Preview Site</div>
+                    <div class="card-body text-center">
+                        <button class="btn btn-primary download-btn" data-url="https://www.airbnb.co.in/host/homes">Download</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" data-url="https://lp.therowhouse.com/try">
+                    <img src="images-task/Rowhouse.png" class="card-img-top" alt="Row House">
+                    <div class="card-img-overlay">Preview Site</div>
+                    <div class="card-body text-center">
+                        <button class="btn btn-primary download-btn" data-url="https://lp.therowhouse.com/try">Download</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card" data-url="https://curology.co/start1/">
+                    <img src="images-task/curology.png" class="card-img-top" alt="Curology">
+                    <div class="card-img-overlay">Preview Site</div>
+                    <div class="card-body text-center">
+                        <button class="btn btn-primary download-btn" data-url="https://curology.co/start1/">Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button id="show-more" class="btn btn-secondary">Show More</button>
+        </div>
+        <!-- Hidden "Coming Soon" Card -->
+        <div id="coming-soon" class="row mt-5 d-none">
+            <div class="col-12">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h4 class="card-title">More Designs Coming Soon!</h4>
+                        <p class="card-text">We are working hard to bring you more inspiring designs. Stay tuned!</p>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="images/coming-soon1.jpg" class="img-fluid rounded" alt="Coming Soon 1">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/coming-soon2.jpg" class="img-fluid rounded" alt="Coming Soon 2">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="images/coming-soon3.jpg" class="img-fluid rounded" alt="Coming Soon 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        made by Sachin Jha ❤️
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
